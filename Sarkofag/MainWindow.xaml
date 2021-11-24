@@ -8,25 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     
     <Grid>
-        <DockPanel>
-            <Menu Width="75" HorizontalAlignment="Left" VerticalAlignment="Top">
-                <MenuItem Header="Dodaj" Width="75">
-                    <Label>Nauczyciel</Label>
-                    <Label>Pracownik</Label>
-                    <Label>Uczeń</Label>
-                </MenuItem>
-                <MenuItem Header="Usuń" Width="75">
-                    <Label>Nauczyciel</Label>
-                    <Label>Pracownik</Label>
-                    <Label>Uczeń</Label>
-                </MenuItem>
-                <MenuItem Header="Obecni" Width="75">
-                    <Label>Nauczyciel</Label>
-                    <Label>Pracownik</Label>
-                    <Label>Uczeń</Label>
-                </MenuItem>
-            </Menu>
-        </DockPanel>
+        <TabControl>
+            <TabItem Header="Nauczyciel"></TabItem>
+            <TabItem Header="Pracownik"></TabItem>
+            <TabItem Header="Uczeń"></TabItem>
+        </TabControl>
     </Grid>
     
 </Window>
