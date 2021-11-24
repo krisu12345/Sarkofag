@@ -9,9 +9,15 @@
     
     <Grid>
         <TabControl>
-            <TabItem Header="Nauczyciel"></TabItem>
+            <TabItem Header="Nauczyciel">
+                <DockPanel>
+                    <TextBox Text="TextBox" TextWrapping="Wrap" Width="120" Height="25"/>
+                    <TextBox Text="TextBox" TextWrapping="Wrap" Width="120" Height="25"/>
+                </DockPanel>
+            </TabItem>
             <TabItem Header="Pracownik"></TabItem>
             <TabItem Header="Uczeń"></TabItem>
+            
         </TabControl>
     </Grid>
     
