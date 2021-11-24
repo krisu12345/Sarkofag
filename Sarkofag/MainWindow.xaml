@@ -6,11 +6,27 @@
         xmlns:local="clr-namespace:Sarkofag"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
-        <Menu Margin="0,0,611,415">
-            <MenuItem Header="Nauczyciel"></MenuItem>
-            <MenuItem Header="Pracownik"></MenuItem>
-            <MenuItem Header="Uczeń"/>
-        </Menu>
+        <DockPanel>
+            <Menu Width="75" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <MenuItem Header="Dodaj" Width="75">
+                    <Label>Nauczyciel</Label>
+                    <Label>Pracownik</Label>
+                    <Label>Uczeń</Label>
+                </MenuItem>
+                <MenuItem Header="Usuń" Width="75">
+                    <Label>Nauczyciel</Label>
+                    <Label>Pracownik</Label>
+                    <Label>Uczeń</Label>
+                </MenuItem>
+                <MenuItem Header="Obecni" Width="75">
+                    <Label>Nauczyciel</Label>
+                    <Label>Pracownik</Label>
+                    <Label>Uczeń</Label>
+                </MenuItem>
+            </Menu>
+        </DockPanel>
     </Grid>
+    
 </Window>
