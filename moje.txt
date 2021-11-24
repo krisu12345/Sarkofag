@@ -10,4 +10,19 @@ Etapy pracy:
 Wyszukanie istniejących rozwiązań i ich porównanie, wybór własnych rozwiązań i ich implementacja, testowanie i nanoszenie poprawek
 Ocena:
 Ocenie podlega projekt (1 ocena), GUI (menu – 2 ocena) oraz główna funkcjonalność (3 ocena), harmonogram testowania i lista poprawek (4 ocena)
+
+
+
+
+
+Wprowadzanie danych ucznia:
+-imie, drugie, nazwisko, panienskie, imiona rodzicow, data uro, pesel, zdjecie, plec, klasa, grupa (jezykowa), etyka checkbox
+
+dane nauczyciela:
+-imie,  drugie, nazwisko, panienskie, imiona rodzicow, data uro, pesel, zdjecie, plec, wychowawstwo chceckbox, przedmioty jakich uczy, klasy jakie uczy i ilosc godzin, data zatrudnienia
+
+dane pracownika:
+-imie, drugie, nazwisko, panienskie, imiona rodzicow, data uro, pesel, zdjecie, plec, info o etacie, opis stanowiska, data zatrudnienia
+
+
  
