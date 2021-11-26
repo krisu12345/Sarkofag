@@ -6,19 +6,29 @@
         xmlns:local="clr-namespace:Sarkofag"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+
     <Grid>
         <TabControl>
             <TabItem Header="Nauczyciel">
-                <DockPanel>
-                    <TextBox Text="TextBox" TextWrapping="Wrap" Width="120" Height="25"/>
-                    <TextBox Text="TextBox" TextWrapping="Wrap" Width="120" Height="25"/>
-                </DockPanel>
+                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="300" Margin="100,50,200,0">
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" />
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"  />
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" />
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                </StackPanel>
             </TabItem>
             <TabItem Header="Pracownik"></TabItem>
             <TabItem Header="Uczeń"></TabItem>
-            
+
         </TabControl>
     </Grid>
-    
+
 </Window>
