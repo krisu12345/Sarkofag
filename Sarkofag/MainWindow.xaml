@@ -43,10 +43,10 @@
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                         <Label Content="Data Zatrudnienia" FontWeight="Normal" Height="25" Margin="0,0,0,0"/>
                         <DatePicker/>
-                        <Image></Image>
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0">
                         <Image Source="C:\Users\student\Downloads\bigboss.jpg" Width="200" Height="200"></Image>
+                        <Button>Wczytaj zdjęcie z urządzenia</Button>
                     </StackPanel>
                 </StackPanel>
                 
