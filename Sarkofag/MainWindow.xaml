@@ -8,25 +8,52 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>
-        <TabControl>
+        <TabControl VerticalAlignment="Top">
             <TabItem Header="Nauczyciel">
-                <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="300" Margin="100,50,200,0">
-                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" />
+                <StackPanel>
+                    <StackPanel HorizontalAlignment="Left" Width="75" Height="400" Margin="100,5,0,0">
+                        <Label Content="Imie" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Drugie Imie" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"  />
+                        <Label Content="Nazwisko" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" />
+                        <Label Content="Panienskie" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Imie Mamy" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Imie Taty" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Data Uro" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Pesel" FontWeight="Normal" Height="25"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    </StackPanel>
+                    <StackPanel>
+                        <StackPanel HorizontalAlignment="Left" Width="75" Height="400" Margin="100,5,0,0">
+                    <Label Content="Imie" FontWeight="Normal" Height="25"/>
+                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <Label Content="Drugie Imie" FontWeight="Normal" Height="25"/>
                     <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"  />
+                    <Label Content="Nazwisko" FontWeight="Normal" Height="25"/>
                     <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" />
+                    <Label Content="Panienskie" FontWeight="Normal" Height="25"/>
                     <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <Label Content="Imie Mamy" FontWeight="Normal" Height="25"/>
                     <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <Label Content="Imie Taty" FontWeight="Normal" Height="25"/>
                     <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <Label Content="Data Uro" FontWeight="Normal" Height="25"/>
                     <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                    <Label Content="Pesel" FontWeight="Normal" Height="25"/>
                     <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
-                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
-                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
-                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
-                    <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                </StackPanel>
+                    </StackPanel>
                 </StackPanel>
             </TabItem>
             <TabItem Header="Pracownik"></TabItem>
             <TabItem Header="Uczeń"></TabItem>
+
 
         </TabControl>
     </Grid>
