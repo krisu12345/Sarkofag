@@ -12,8 +12,7 @@
         <TabControl VerticalAlignment="Top">
             <TabItem Header="Nauczyciel">
                 <StackPanel Orientation="Horizontal">
-                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="100
-                                " Height="400" Margin="100,5,0,0">
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="100" Height="400" Margin="100,5,0,0">
                         <Label Content="Imie" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                         <Label Content="Drugie Imie" FontWeight="Normal" Height="30"/>
@@ -27,7 +26,7 @@
                         <Label Content="Imie Taty" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                         <Label Content="Data Urodzenia" FontWeight="Normal" Height="25" Width="100"/>
-                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <DatePicker x:Name="urodzenia"/>
                         <Label Content="Pesel" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                     </StackPanel>
@@ -42,8 +41,12 @@
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                         <Label Content="Ilość godzin" FontWeight="Normal" Height="25" Margin="0,0,0,0"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
-                        <Label Content="Klasy uczone" FontWeight="Normal" Height="25" Margin="0,0,0,0"/>
-                        <DatePickerTextBox></DatePickerTextBox>
+                        <Label Content="Data Zatrudnienia" FontWeight="Normal" Height="25" Margin="0,0,0,0"/>
+                        <DatePicker/>
+                        <Image></Image>
+                    </StackPanel>
+                    <StackPanel>
+                        <Image Source="C:\Users\student\Downloads\bigboss.jpg" Width="200" Height="200"></Image>
                     </StackPanel>
                 </StackPanel>
                 
