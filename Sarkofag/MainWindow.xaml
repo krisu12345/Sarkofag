@@ -8,21 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
-            <ColumnDefinition Width="1*" />
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="2*" />
-        </Grid.RowDefinitions>
+        
         <TabControl VerticalAlignment="Top">
             <TabItem Header="Nauczyciel">
                 <StackPanel Orientation="Horizontal">
-                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="75" Height="400" Margin="100,5,0,0">
+                    <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="100
+                                " Height="400" Margin="100,5,0,0">
                         <Label Content="Imie" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
-                        <Label Content="Drugie Imie" FontWeight="Normal" Height="25"/>
+                        <Label Content="Drugie Imie" FontWeight="Normal" Height="30"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"  />
                         <Label Content="Nazwisko" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" />
@@ -32,7 +26,7 @@
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                         <Label Content="Imie Taty" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
-                        <Label Content="Data Uro" FontWeight="Normal" Height="25"/>
+                        <Label Content="Data Urodzenia" FontWeight="Normal" Height="25" Width="100"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                         <Label Content="Pesel" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
@@ -40,6 +34,16 @@
                     <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,0,0">
                         <Label Content="Pesel" FontWeight="Normal" Height="25"/>
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Wychowawstwo" FontWeight="Normal" Height="25"/>
+                        <CheckBox Margin="0,5,0,0"></CheckBox>
+                        <Label Content="Przedmioty" FontWeight="Normal" Height="25" Margin="0,10,0,0"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Klasy uczone" FontWeight="Normal" Height="25" Margin="0,0,0,0"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Ilość godzin" FontWeight="Normal" Height="25" Margin="0,0,0,0"/>
+                        <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <Label Content="Klasy uczone" FontWeight="Normal" Height="25" Margin="0,0,0,0"/>
+                        <DatePickerTextBox></DatePickerTextBox>
                     </StackPanel>
                 </StackPanel>
                 
