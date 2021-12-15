@@ -35,8 +35,8 @@ namespace Sarkofag
             theDialog.InitialDirectory = @"C:\";
             theDialog.ShowDialog();
             wklejone.Source = new BitmapImage(new Uri(theDialog.FileName));
-            wklejoneu.Source = new BitmapImage(new Uri(theDialog.FileName));
-            wklejonep.Source = new BitmapImage(new Uri(theDialog.FileName));
+           // przerzucenie do innych tych wklejoneu.Source = new BitmapImage(new Uri(theDialog.FileName));
+            //wklejonep.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -46,7 +46,7 @@ namespace Sarkofag
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "uczen.txt")))
             {
-                    outputFile.WriteLine($"{Imieu}");
+                    outputFile.WriteLine($"{Imieu.Text}");
             }
         }
     }
