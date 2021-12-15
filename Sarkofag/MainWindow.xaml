@@ -92,8 +92,8 @@
                         <TextBox  TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0">
-                        <Image Name="wklejoneu" Width="200" Height="200"></Image>
-                        <Button Click="Button_Click">Wczytaj zdjęcie z urządzenia</Button>
+                        <Image Name="wklejoneu" Width="200" Height="200" Margin="10,0,0,0"></Image>
+                        <Button Click="Button_Click" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
                     </StackPanel>
                 </StackPanel>
             </TabItem>

@@ -35,6 +35,7 @@ namespace Sarkofag
             theDialog.InitialDirectory = @"C:\";
             theDialog.ShowDialog();
             wklejone.Source = new BitmapImage(new Uri(theDialog.FileName));
+            wklejoneu.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
     }
 }
