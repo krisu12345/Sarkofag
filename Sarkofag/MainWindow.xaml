@@ -93,7 +93,6 @@
                     </StackPanel>
                 </StackPanel>
             </TabItem>
-
             <TabItem Header="Uczeń">
                 <StackPanel Orientation="Horizontal" Height="425" Margin="0,0,0,0">
                     <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="100" Height="410" Margin="100,0,0,5">
@@ -131,9 +130,6 @@
                     </StackPanel>
                 </StackPanel>
             </TabItem>
-            
-
-
         </TabControl>
     </Grid>
 
