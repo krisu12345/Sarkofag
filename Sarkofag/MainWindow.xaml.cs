@@ -44,9 +44,9 @@ namespace Sarkofag
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             // zapisywanie do pliku
-            using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "nauczyciel.txt")))
+            using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "uczen.txt")))
             {
-                    outputFile.WriteLine($"{Imien}");
+                    outputFile.WriteLine($"{Imieu}");
             }
         }
     }
