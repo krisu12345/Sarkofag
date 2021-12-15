@@ -38,5 +38,16 @@ namespace Sarkofag
             wklejoneu.Source = new BitmapImage(new Uri(theDialog.FileName));
             wklejonep.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            // zapisywanie do pliku
+            using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "nauczyciel.txt")))
+            {
+                    outputFile.WriteLine($"{Imien}");
+            }
+        }
     }
 }
