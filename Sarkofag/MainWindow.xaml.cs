@@ -31,9 +31,10 @@ namespace Sarkofag
         {
             OpenFileDialog theDialog = new OpenFileDialog();
             theDialog.Title = "Open Text File";
-            theDialog.Filter = "TXT files|*.txt";
+            // theDialog.Filter = "TXT files|*.txt";
             theDialog.InitialDirectory = @"C:\";
             theDialog.ShowDialog();
+            wklejone.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
     }
 }
