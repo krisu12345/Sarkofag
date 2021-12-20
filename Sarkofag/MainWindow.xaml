@@ -48,7 +48,7 @@
                         <DatePicker Name="Zatrudnienian"/>
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0">
-                        <Image Name="wklejone" Source="C:\Users\student\Downloads\bigboss.jpg" Width="200" Height="200"></Image>
+                        <Image Name="wklejonen" Source="C:\Users\student\Downloads\bigboss.jpg" Width="200" Height="200"></Image>
                         <Button Click="Button_Click">Wczytaj zdjęcie z urządzenia</Button>
                     </StackPanel>
                 </StackPanel>
@@ -89,7 +89,7 @@
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0">
                         <Image Name="wklejonep" Width="200" Height="200" Margin="10,0,0,0"></Image>
-                        <Button Click="Button_Click" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
+                        <Button Click="Button_Click_2" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
                     </StackPanel>
                 </StackPanel>
             </TabItem>
@@ -126,7 +126,7 @@
                     </StackPanel>
                     <StackPanel Margin="0,0,0,0">
                         <Image Name="wklejoneu" Width="200" Height="200" Margin="10,0,0,0"></Image>
-                        <Button Click="Button_Click" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
+                        <Button Click="Button_Click_3" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
                         <Button Margin="10,25,0,0" Click="Button_Click_1">Zapisz do pliku</Button>
                     </StackPanel>
                 </StackPanel>

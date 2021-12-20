@@ -33,7 +33,7 @@ namespace Sarkofag
             theDialog.Title = "Open Text File";
             theDialog.InitialDirectory = @"C:\";
             theDialog.ShowDialog();
-            wklejone.Source = new BitmapImage(new Uri(theDialog.FileName));
+            wklejonen.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
         string plec;
         string etyka;
@@ -61,6 +61,24 @@ namespace Sarkofag
             {
                 outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plec}\n{Klasau.Text}\n{Grupau.Text}");                                 
             }
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog theDialog = new OpenFileDialog();
+            theDialog.Title = "Open Text File";
+            theDialog.InitialDirectory = @"C:\";
+            theDialog.ShowDialog();
+            wklejonep.Source = new BitmapImage(new Uri(theDialog.FileName));
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog theDialog = new OpenFileDialog();
+            theDialog.Title = "Open Text File";
+            theDialog.InitialDirectory = @"C:\";
+            theDialog.ShowDialog();
+            wklejoneu.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
     }
 }
