@@ -35,15 +35,23 @@ namespace Sarkofag
             theDialog.ShowDialog();
             wklejone.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
-
+        string plec;
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            
+            if (plecu.SelectedItem == Ku) {
+                plec = "Kobieta";
+            }
+            else
+            {
+                plec = "Mężczyzna";
+            }
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "uczen.txt")))
             {
-                    outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plecu.SelectedValue.ToString()}");                                   
+                outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plec}");                                 
             }
         }
     }
