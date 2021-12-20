@@ -31,12 +31,9 @@ namespace Sarkofag
         {
             OpenFileDialog theDialog = new OpenFileDialog();
             theDialog.Title = "Open Text File";
-            // theDialog.Filter = "TXT files|*.txt";
             theDialog.InitialDirectory = @"C:\";
             theDialog.ShowDialog();
             wklejone.Source = new BitmapImage(new Uri(theDialog.FileName));
-           // przerzucenie do innych tych wklejoneu.Source = new BitmapImage(new Uri(theDialog.FileName));
-            //wklejonep.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -46,7 +43,7 @@ namespace Sarkofag
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "uczen.txt")))
             {
-                    outputFile.WriteLine($"{Imieu.Text}");
+                    outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}");
             }
         }
     }
