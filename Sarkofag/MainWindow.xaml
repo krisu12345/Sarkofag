@@ -32,7 +32,7 @@
                     </StackPanel>
                     <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,0,0">
                         <Label Content="Płeć" FontWeight="Normal" Height="25"/>
-                        <ComboBox   Width="75" Height="25" HorizontalAlignment="Left">
+                        <ComboBox   Name="plecu" Width="75" Height="25" HorizontalAlignment="Left">
                             <ComboBoxItem Name="Kn">Kobieta</ComboBoxItem>
                             <ComboBoxItem Name="Mn">Mężczyzna</ComboBoxItem>
                         </ComboBox>
