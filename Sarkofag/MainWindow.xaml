@@ -28,7 +28,7 @@
                         <Label Content="Data Urodzenia" FontWeight="Normal" Height="25" Width="100"/>
                         <DatePicker x:Name="urodzenian"/>
                         <Label Content="Pesel" FontWeight="Normal" Height="25"/>
-                        <TextBox  Name="Peseln" TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <TextBox  Name="Peseln" TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" UndoLimit="14"/>
                     </StackPanel>
                     <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,0,0">
                         <Label Content="Płeć" FontWeight="Normal" Height="25"/>
@@ -73,7 +73,7 @@
                         <Label Content="Data Urodzenia" FontWeight="Normal" Height="25" Width="100"/>
                         <DatePicker x:Name="urodzeniap"/>
                         <Label Content="Pesel" FontWeight="Normal" Height="25"/>
-                        <TextBox  Name="Peselp" TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <TextBox  Name="Peselp" TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" UndoLimit="11"/>
                     </StackPanel>
                     <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,0,0">
                         <Label Content="Płeć" FontWeight="Normal" Height="25"/>
@@ -111,7 +111,7 @@
                         <Label Content="Data Urodzenia" FontWeight="Normal" Height="25" Width="100"/>
                         <DatePicker x:Name="urodzeniau"/>
                         <Label Content="Pesel" FontWeight="Normal" Height="25"/>
-                        <TextBox Name="Peselu" TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left"/>
+                        <TextBox Name="Peselu" TextWrapping="Wrap" Width="75" Height="25" HorizontalAlignment="Left" UndoLimit="11"/>
                     </StackPanel>
                     <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,0,0">
                         <Label Content="Płeć" FontWeight="Normal" Height="25"/>

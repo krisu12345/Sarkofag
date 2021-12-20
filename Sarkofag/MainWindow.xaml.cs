@@ -103,6 +103,7 @@ namespace Sarkofag
                 outputFile.WriteLine($"{Imiep.Text}\n{xImiep.Text}\n{Nazwiskop.Text}\n{ImieMp.Text}\n{ImieTp.Text}\n{urodzeniap.Text}\n{Peselp.Text}\n{plecpp}\n{Etatp.Text}\n{Stanowiskop.Text}\n{Zatrudnieniap.Text}");
             }
         }
+        /// nauczyciel
         string wycho;
         string plecnn;
         private void Button_Click_5(object sender, RoutedEventArgs e)
