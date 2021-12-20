@@ -35,7 +35,8 @@ namespace Sarkofag
             theDialog.ShowDialog();
             wklejonen.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
-        string plec;
+        /// uczen
+        string plecuu;
         string etyka;
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
@@ -48,18 +49,18 @@ namespace Sarkofag
             }
             
             if (plecu.SelectedItem == Ku){
-                plec = "Kobieta";
+                plecuu = "Kobieta";
             }
             else
             {
-                plec = "Mężczyzna";
+                plecuu = "Mężczyzna";
             }
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "uczen.txt")))
             {
-                outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plec}\n{Klasau.Text}\n{Grupau.Text}");                                 
+                outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plecuu}\n{Klasau.Text}\n{Grupau.Text}\n{etyka}");                                 
             }
         }
 
@@ -79,6 +80,56 @@ namespace Sarkofag
             theDialog.InitialDirectory = @"C:\";
             theDialog.ShowDialog();
             wklejoneu.Source = new BitmapImage(new Uri(theDialog.FileName));
+        }
+
+
+        /// pracownik
+        string plecpp;
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            if (plecp.SelectedItem == Ku)
+            {
+                plecpp = "Kobieta";
+            }
+            else
+            {
+                plecpp = "Mężczyzna";
+            }
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            // zapisywanie do pliku
+            using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "pracownik.txt")))
+            {
+                outputFile.WriteLine($"{Imiep.Text}\n{xImiep.Text}\n{Nazwiskop.Text}\n{ImieMp.Text}\n{ImieTp.Text}\n{urodzeniap.Text}\n{Peselp.Text}\n{plecpp}\n{Etatp.Text}\n{Stanowiskop.Text}\n{Zatrudnieniap.Text}");
+            }
+        }
+        string wycho;
+        string plecnn;
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            if ((bool)Wychon.IsChecked)
+            {
+                wycho = "Tak";
+            }
+            else
+            {
+                wycho = "Nie";
+            }
+            if (plecn.SelectedItem == Ku)
+            {
+                plecnn = "Kobieta";
+            }
+            else
+            {
+                plecnn = "Mężczyzna";
+            }
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+            // zapisywanie do pliku
+            using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "nauczyciel.txt")))
+            {
+                outputFile.WriteLine($"{Imien.Text}\n{Imiexn.Text}\n{Nazwiskon.Text}\n{ImieMn.Text}\n{ImieTn.Text}\n{urodzenian.Text}\n{Peseln.Text}\n{plecnn}\n{wycho}\n{Stanowiskop.Text}\n{Przedmiotyn.Text}\n{Klasyn.Text}\n{Ilosc_godzinn.Text}\n{Zatrudnienian.Text}");
+            }
         }
     }
 }

@@ -50,6 +50,7 @@
                     <StackPanel Margin="0,0,0,0">
                         <Image Name="wklejonen" Source="C:\Users\student\Downloads\bigboss.jpg" Width="200" Height="200"></Image>
                         <Button Click="Button_Click">Wczytaj zdjęcie z urządzenia</Button>
+                        <Button Margin="10,25,0,0" Click="Button_Click_5">Zapisz do pliku</Button>
                     </StackPanel>
                 </StackPanel>
                 
@@ -76,7 +77,7 @@
                     </StackPanel>
                     <StackPanel Grid.Column="2" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,5,0,0">
                         <Label Content="Płeć" FontWeight="Normal" Height="25"/>
-                        <ComboBox   Width="75" Height="25" HorizontalAlignment="Left">
+                        <ComboBox   Name="plecp" Width="75" Height="25" HorizontalAlignment="Left">
                             <ComboBoxItem Name="Kp">Kobieta</ComboBoxItem>
                             <ComboBoxItem Name="Mp">Mężczyzna</ComboBoxItem>
                         </ComboBox>
@@ -90,6 +91,7 @@
                     <StackPanel Margin="0,0,0,0">
                         <Image Name="wklejonep" Width="200" Height="200" Margin="10,0,0,0"></Image>
                         <Button Click="Button_Click_2" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
+                        <Button Margin="10,25,0,0" Click="Button_Click_4">Zapisz do pliku</Button>
                     </StackPanel>
                 </StackPanel>
             </TabItem>
@@ -128,6 +130,7 @@
                         <Image Name="wklejoneu" Width="200" Height="200" Margin="10,0,0,0"></Image>
                         <Button Click="Button_Click_3" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
                         <Button Margin="10,25,0,0" Click="Button_Click_1">Zapisz do pliku</Button>
+                        
                     </StackPanel>
                 </StackPanel>
             </TabItem>
