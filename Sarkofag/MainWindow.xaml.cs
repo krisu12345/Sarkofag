@@ -36,10 +36,18 @@ namespace Sarkofag
             wklejone.Source = new BitmapImage(new Uri(theDialog.FileName));
         }
         string plec;
+        string etyka;
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            if ((bool)Etykau.IsChecked) {
+                etyka = "Tak";
+            }
+            else
+            {
+                etyka = "Nie";
+            }
             
-            if (plecu.SelectedItem == Ku) {
+            if (plecu.SelectedItem == Ku){
                 plec = "Kobieta";
             }
             else
@@ -51,7 +59,7 @@ namespace Sarkofag
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "uczen.txt")))
             {
-                outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plec}");                                 
+                outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plec}\n{Klasau.Text}\n{Grupau.Text}");                                 
             }
         }
     }
