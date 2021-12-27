@@ -108,6 +108,7 @@ namespace Sarkofag
         string plecnn;
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
+            wypiszn.Content += ($"{Imien.Text}\n{Imiexn.Text}\n{Nazwiskon.Text}\n{ImieMn.Text}\n{ImieTn.Text}\n{urodzenian.Text}\n{Peseln.Text}\n{plecnn}\n{wycho}\n{Stanowiskop.Text}\n{Przedmiotyn.Text}\n{Klasyn.Text}\n{Ilosc_godzinn.Text}\n{Zatrudnienian.Text}");
             if ((bool)Wychon.IsChecked)
             {
                 wycho = "Tak";
@@ -131,6 +132,7 @@ namespace Sarkofag
             {
                 outputFile.WriteLine($"{Imien.Text}\n{Imiexn.Text}\n{Nazwiskon.Text}\n{ImieMn.Text}\n{ImieTn.Text}\n{urodzenian.Text}\n{Peseln.Text}\n{plecnn}\n{wycho}\n{Stanowiskop.Text}\n{Przedmiotyn.Text}\n{Klasyn.Text}\n{Ilosc_godzinn.Text}\n{Zatrudnienian.Text}");
             }
+
         }
     }
 }

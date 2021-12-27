@@ -10,7 +10,7 @@
     <Grid>
         
         <TabControl VerticalAlignment="Top">
-            <TabItem Header="Nauczyciel">
+            <TabItem Header="Dodaj nauczyciela">
                 <StackPanel Orientation="Horizontal" Height="425" Margin="0,0,0,0">
                     <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="100" Height="410" Margin="100,0,0,5">
                         <Label Content="Imie" FontWeight="Normal" Height="25"/>
@@ -55,7 +55,7 @@
                 </StackPanel>
                 
             </TabItem>
-            <TabItem Header="Pracownik">
+            <TabItem Header="Dodaj pracownika">
                 <StackPanel Orientation="Horizontal" Height="425" Margin="0,0,0,0">
                     <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="100" Height="410" Margin="100,0,0,5">
                         <Label Content="Imie" FontWeight="Normal" Height="25"/>
@@ -95,7 +95,7 @@
                     </StackPanel>
                 </StackPanel>
             </TabItem>
-            <TabItem Header="Uczeń">
+            <TabItem Header="Dodaj ucznia">
                 <StackPanel Orientation="Horizontal" Height="425" Margin="0,0,0,0">
                     <StackPanel Grid.Column="1" HorizontalAlignment="Left" Width="100" Height="410" Margin="100,0,0,5">
                         <Label Content="Imie" FontWeight="Normal" Height="25"/>
@@ -133,6 +133,9 @@
                         
                     </StackPanel>
                 </StackPanel>
+            </TabItem>
+            <TabItem Header="nauczyciele">
+                <Label Name="wypiszn"></Label>
             </TabItem>
         </TabControl>
     </Grid>
