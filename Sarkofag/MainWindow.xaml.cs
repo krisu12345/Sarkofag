@@ -108,7 +108,7 @@ namespace Sarkofag
         string plecnn;
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            wypiszn.Content += ($"{Imien.Text}\n{Imiexn.Text}\n{Nazwiskon.Text}\n{ImieMn.Text}\n{ImieTn.Text}\n{urodzenian.Text}\n{Peseln.Text}\n{plecnn}\n{wycho}\n{Stanowiskop.Text}\n{Przedmiotyn.Text}\n{Klasyn.Text}\n{Ilosc_godzinn.Text}\n{Zatrudnienian.Text}");
+            wypiszn.Content += ($"{Imien.Text} {Imiexn.Text} {Nazwiskon.Text} {ImieMn.Text} {ImieTn.Text} {urodzenian.Text} {Peseln.Text} {plecnn} {wycho} {Stanowiskop.Text} {Przedmiotyn.Text} {Klasyn.Text} {Ilosc_godzinn.Text} {Zatrudnienian.Text}\n");
             if ((bool)Wychon.IsChecked)
             {
                 wycho = "Tak";
