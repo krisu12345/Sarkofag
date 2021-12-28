@@ -25,6 +25,12 @@ namespace Sarkofag
         public MainWindow()
         {
             InitializeComponent();
+            odswiez();
+        }
+        private void odswiez()
+        {
+            string wczytanien = System.IO.File.ReadAllText(@"C:\Users\48510\Desktop\nauczyciel.txt");
+            wypiszn.Content = wczytanien;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -87,6 +93,7 @@ namespace Sarkofag
         string plecpp;
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
+            wypiszp.Content = ($"{Imiep.Text} {xImiep.Text} {Nazwiskop.Text} {ImieMp.Text} {ImieTp.Text} {urodzeniap.Text} {Peselp.Text} {plecpp} {Etatp.Text} {Stanowiskop.Text} {Zatrudnieniap.Text}\n");
             if (plecp.SelectedItem == Ku)
             {
                 plecpp = "Kobieta";

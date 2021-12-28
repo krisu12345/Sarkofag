@@ -50,7 +50,7 @@
                     <StackPanel Margin="0,0,0,0">
                         <Image Name="wklejonen" Source="C:\Users\student\Downloads\bigboss.jpg" Width="200" Height="200"></Image>
                         <Button Click="Button_Click">Wczytaj zdjęcie z urządzenia</Button>
-                        <Button Margin="10,25,0,0" Click="Button_Click_5">Zapisz do pliku</Button>
+                        <Button Margin="10,25,0,0" Click="Button_Click_5">Dodaj nauczyciela i do pliku</Button>
                     </StackPanel>
                 </StackPanel>
                 
@@ -91,7 +91,7 @@
                     <StackPanel Margin="0,0,0,0">
                         <Image Name="wklejonep" Width="200" Height="200" Margin="10,0,0,0"></Image>
                         <Button Click="Button_Click_2" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
-                        <Button Margin="10,25,0,0" Click="Button_Click_4">Zapisz do pliku</Button>
+                        <Button Margin="10,25,0,0" Click="Button_Click_4">Dodaj pracownika i do pliku</Button>
                     </StackPanel>
                 </StackPanel>
             </TabItem>
@@ -129,13 +129,19 @@
                     <StackPanel Margin="0,0,0,0">
                         <Image Name="wklejoneu" Width="200" Height="200" Margin="10,0,0,0"></Image>
                         <Button Click="Button_Click_3" Content="Wczytaj zdjęcie z urządzenia" Margin="10,0,0,0"/>
-                        <Button Margin="10,25,0,0" Click="Button_Click_1">Zapisz do pliku</Button>
+                        <Button Margin="10,25,0,0" Click="Button_Click_1">dodaj ucznia i do pliku</Button>
                         
                     </StackPanel>
                 </StackPanel>
             </TabItem>
             <TabItem Header="nauczyciele">
                 <Label Name="wypiszn"></Label>
+            </TabItem>
+            <TabItem Header="pracownicy">
+                <Label Name="wypiszp"></Label>
+            </TabItem>
+            <TabItem Header="uczniowie">
+                <Label Name="wypiszu"></Label>
             </TabItem>
         </TabControl>
     </Grid>
