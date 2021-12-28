@@ -30,6 +30,8 @@ namespace Sarkofag
         private void odswiez()
         {
             string wczytanien = System.IO.File.ReadAllText(@"C:\Users\48510\Desktop\nauczyciel.txt");
+            string wczytaniep = System.IO.File.ReadAllText(@"C:\Users\48510\Desktop\uczen.txt");
+            string wczytanieu = System.IO.File.ReadAllText(@"C:\Users\48510\Desktop\pracownik.txt");
             wypiszn.Content = wczytanien;
         }
 
