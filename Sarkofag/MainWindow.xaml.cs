@@ -46,6 +46,7 @@ namespace Sarkofag
         string etyka;
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            wypiszu.Content = ($"{Imieu.Text} {xImieu.Text} {Nazwiskou.Text} {ImieMu.Text} {ImieTu.Text} {urodzeniau.Text} {Peselu.Text} {plecuu} {Klasau.Text} {Grupau.Text} {etyka}\n");
             if ((bool)Etykau.IsChecked) {
                 etyka = "Tak";
             }
