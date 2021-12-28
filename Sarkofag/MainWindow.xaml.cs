@@ -71,7 +71,7 @@ namespace Sarkofag
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "uczen.txt")))
             {
-                outputFile.WriteLine($"{Imieu.Text}\n{xImieu.Text}\n{Nazwiskou.Text}\n{ImieMu.Text}\n{ImieTu.Text}\n{urodzeniau.Text}\n{Peselu.Text}\n{plecuu}\n{Klasau.Text}\n{Grupau.Text}\n{etyka}");                                 
+                outputFile.WriteLine($"{Imieu.Text} {xImieu.Text} {Nazwiskou.Text} {ImieMu.Text} {ImieTu.Text} {urodzeniau.Text} {Peselu.Text} {plecuu} {Klasau.Text} {Grupau.Text} {etyka}\n");                                 
             }
         }
 
@@ -112,7 +112,7 @@ namespace Sarkofag
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "pracownik.txt")))
             {
-                outputFile.WriteLine($"{Imiep.Text}\n{xImiep.Text}\n{Nazwiskop.Text}\n{ImieMp.Text}\n{ImieTp.Text}\n{urodzeniap.Text}\n{Peselp.Text}\n{plecpp}\n{Etatp.Text}\n{Stanowiskop.Text}\n{Zatrudnieniap.Text}");
+                outputFile.WriteLine($"{Imiep.Text} {xImiep.Text} {Nazwiskop.Text} {ImieMp.Text} {ImieTp.Text} {urodzeniap.Text} {Peselp.Text} {plecpp} {Etatp.Text} {Stanowiskop.Text} {Zatrudnieniap.Text}\n");
             }
         }
         /// nauczyciel
@@ -142,7 +142,7 @@ namespace Sarkofag
             // zapisywanie do pliku
             using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(docPath, "nauczyciel.txt")))
             {
-                outputFile.WriteLine($"{Imien.Text}\n{Imiexn.Text}\n{Nazwiskon.Text}\n{ImieMn.Text}\n{ImieTn.Text}\n{urodzenian.Text}\n{Peseln.Text}\n{plecnn}\n{wycho}\n{Stanowiskop.Text}\n{Przedmiotyn.Text}\n{Klasyn.Text}\n{Ilosc_godzinn.Text}\n{Zatrudnienian.Text}");
+                outputFile.WriteLine($"{Imien.Text} {Imiexn.Text} {Nazwiskon.Text} {ImieMn.Text} {ImieTn.Text} {urodzenian.Text} {Peseln.Text} {plecnn} {wycho} {Stanowiskop.Text} {Przedmiotyn.Text} {Klasyn.Text} {Ilosc_godzinn.Text} {Zatrudnienian.Text}\n");
             }
 
         }
